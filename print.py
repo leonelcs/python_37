@@ -1,20 +1,20 @@
 
-novinha, senta= "E a novinha", " senta "
+vai, repete= "Vai", " repete "
 
 number = int(input())
 
 print("The square root of:", number ** 0.5 )
 
 print("#########")
-print(novinha)
+print(vai)
 
 for i in range(number):
-    print (senta)
-print(''' E a novinha senta, senta
- a novinha senta e vai''')
+    print (repete)
+print(''' varias linhas
+varias linhas''')
 
-print(''' Dividindo essa caralha de asa
- Ai porra! ''')
+print(''' Divindo tudo
+aeaeae! ''')
 
 distancia = 5
 tempo = 0.5
@@ -22,7 +22,7 @@ velocidade = distancia/tempo
 
 print(type(velocidade))
 if type(velocidade) == float :
-    print("minha rola imunda")
+    print("frase teste")
 print("Velocidade {0}".format(velocidade))
 
 name, hobbies = input("What is your name? "), input("What are your hobbies? ")
